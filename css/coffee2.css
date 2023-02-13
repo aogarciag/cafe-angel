@@ -2,6 +2,28 @@ body:not(.template-slider) #Header_wrapper {
 	background: #154236;
 }
 
+@media only screen and (max-width: 479px){
+	
+
+	.side{
+		width: 25%!important;
+	}
+
+	h1.tp-resizeme{
+	font-size: 24px!important;
+	}
+
+	h5.tp-resizeme{
+		font-size: 16px!important;
+	}
+
+	a.tp-resizeme{
+		font-size: 20px!important;
+		padding: 10px!important;
+	}
+
+}
+
 .whatsapp {
 	position:fixed;
 	width:60px;
@@ -27,7 +49,7 @@ body:not(.template-slider) #Header_wrapper {
 /* Three column layout */
 .side {
 	float: left;
-	width: 15%;
+	width: 30%;
 	margin-top: 10px;
   }
   
@@ -1828,7 +1850,7 @@ h6 {
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	body {
-		font-size: 14px;
+		font-size: 16px;
 		line-height: 22px;
 	}
 	big, .big {
@@ -2040,15 +2062,15 @@ h6 {
 }
 @media only screen and (max-width: 479px) {
 	body {
-		font-size: 13px;
+		font-size: 16px;
 		line-height: 19px;
 	}
 	big, .big {
-		font-size: 13px;
+		font-size: 20px;
 		line-height: 19px;
 	}
 	#menu>ul>li>a, a.action_button, #overlay-menu ul li a {
-		font-size: 13px;
+		font-size: 16px;
 	}
 	#overlay-menu ul li a {
 		line-height: 19.5px;
@@ -2058,27 +2080,27 @@ h6 {
 		line-height: 39px;
 	}
 	h1, .text-logo #logo {
-		font-size: 29px;
+		font-size: 36px;
 		line-height: 30px;
 	}
 	h2 {
-		font-size: 24px;
+		font-size: 30px;
 		line-height: 30px;
 	}
 	h3 {
-		font-size: 15px;
+		font-size: 22px;
 		line-height: 21px;
 	}
 	h4 {
-		font-size: 13px;
+		font-size: 18px;
 		line-height: 19px;
 	}
 	h5 {
-		font-size: 13px;
+		font-size: 16px;
 		line-height: 19px;
 	}
 	h6 {
-		font-size: 13px;
+		font-size: 14px;
 		line-height: 19px;
 	}
 	#Intro .intro-title {
